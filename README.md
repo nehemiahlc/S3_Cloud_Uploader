@@ -54,7 +54,7 @@ To package and distribute the script, you can create a simple installation scrip
 Installation Tips:
 
 Download the script:
-curl (https://github.com/nehemiahlc/s3-upload-tool/blob/a42617f2d25a846aaffc85792a11aa5b862bbfce/S3%20Tool)
+ (https://github.com/nehemiahlc/s3-upload-tool/blob/a42617f2d25a846aaffc85792a11aa5b862bbfce/S3%20Tool)
 
 Make it executable:
 chmod +x uploadtos3.sh
