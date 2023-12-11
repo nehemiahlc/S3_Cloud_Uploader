@@ -12,7 +12,6 @@ A Bash-based CLI tool for uploading files to an S3 bucket.
 ## Usage
 To use the tool, run the following command:
 
-```bash `
 ./uploadtos3.sh <local-file> <destination-path>
 <local-file>: The path to the local file you want to upload.
 <destination-path>: The destination path in the S3 bucket.
