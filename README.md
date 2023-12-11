@@ -26,7 +26,7 @@ Solution: Ensure that your S3 bucket is public, and the bucket policy allows the
 
 Issue 2: AWS CLI Configuration
 
-Solution: When running aws configure, ensure that you provide the correct AWS access key, secret key, region, and output format. Double-check the configuration using aws configure list.
+Solution: When running 'aws configure', ensure that you provide the correct AWS access key, secret key, region, and output format. Double-check the configuration using 'aws configure list'.
 
 ## Distribution
 To package and distribute the script, you can create a simple installation script or provide instructions for adding it to the user's $PATH.
