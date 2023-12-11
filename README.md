@@ -16,28 +16,10 @@ To use the tool, run the following command:
 <local-file>: The path to the local file you want to upload.
 <destination-path>: The destination path in the S3 bucket.
 
-## Manual Configuration
-
-Please note that you'll need to manually edit the script before using it. Open the script (`uploadtos3.sh`) in a text editor and look for the variable `s3_bucket`. 
-Replace the placeholder value (`your-s3-bucket-name`) with your actual S3 bucket name. 
-Save the file and then run the script using the provided instructions in the Usage section.
-
-Example:
-
-```bash `
-Open the script in a text editor
-nano uploadtos3.sh
-
-Find and replace the placeholder with your S3 bucket name
-Before: s3_bucket="your-s3-bucket-name"
-After: s3_bucket="your-actual-bucket-name"
-Save the file and exit the text editor
-
-Run the script
-./uploadtos3.sh ./example.txt uploads/ your-actual-bucket-name
-
 Examples:
 ./uploadtos3.sh ./example.txt uploads/
+
+Please note that the script will prompt you to enter your S3 Bucket name.
 
 ## Common Issues
 Issue 1: Bucket Not Public or Policy Doesn't Allow PUT Object
