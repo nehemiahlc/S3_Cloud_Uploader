@@ -16,6 +16,14 @@ To use the tool, run the following command:
 <local-file>: The path to the local file you want to upload.
 <destination-path>: The destination path in the S3 bucket.
 
+Note: You will have to manually add your bucket name to the script...
+
+Follow these steps
+
+nano uploadtos3.sh
+Then add your bucket name under the section: # Set S3 Bucket Name
+Save: Ctrl + O and then Ctrl + X to exit
+
 Examples:
 ./uploadtos3.sh ./example.txt uploads/
 
