@@ -25,16 +25,15 @@ Save the file and then run the script using the provided instructions in the Usa
 Example:
 
 ```bash `
-# Open the script in a text editor
+Open the script in a text editor
 nano uploadtos3.sh
 
-# Find and replace the placeholder with your S3 bucket name
-# Before: s3_bucket="your-s3-bucket-name"
-# After: s3_bucket="your-actual-bucket-name"
+Find and replace the placeholder with your S3 bucket name
+Before: s3_bucket="your-s3-bucket-name"
+After: s3_bucket="your-actual-bucket-name"
+Save the file and exit the text editor
 
-# Save the file and exit the text editor
-
-# Run the script
+Run the script
 ./uploadtos3.sh ./example.txt uploads/ your-actual-bucket-name
 
 Examples:
