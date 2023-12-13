@@ -53,20 +53,27 @@ Ensure AWS CLI is installed and configured.
 Check your AWS credentials.
 Verify that the S3 bucket is public, and the bucket policy allows s3:PutObject.
 
-## Future Enhancements
+# Future Enhancements
+
 In the upcoming releases, I have exciting plans to enhance this tool with the following features:
 
-File Synchronization: Users will have the ability to choose whether to overwrite, skip, or rename existing files in the cloud during uploads.
+### File Synchronization
+Users will have the ability to choose whether to overwrite, skip, or rename existing files in the cloud during uploads.
 
-Multiple File Uploads: Enjoy the convenience of uploading multiple files in a single command, streamlining the process.
+### Multiple File Uploads
+Enjoy the convenience of uploading multiple files in a single command, streamlining the process.
 
-Progress Tracking: A progress tracking feature will be introduced, allowing users to monitor the status of their file uploads.
+### Progress Tracking
+A progress tracking feature will be introduced, allowing users to monitor the status of their file uploads.
 
-Shareable Links: After uploading, generate and display shareable links effortlessly, making it simple to share files with others.
+### Shareable Links
+After uploading, generate and display shareable links effortlessly, making it simple to share files with others.
 
-File Encryption: For added security, an encryption feature will be implemented to safeguard your files during the upload process.
+### File Encryption
+For added security, an encryption feature will be implemented to safeguard your files during the upload process.
 
 Stay tuned for these exciting enhancements in future updates! Your feedback and suggestions are welcome; feel free to open an issue to share your thoughts or propose additional features.
+
 
 ## Contributing
 Feel free to contribute by opening an issue or submitting a pull request.
